@@ -1,0 +1,13 @@
+#N canvas 2024 288 450 300 12;
+#X obj 233 83 <= 0;
+#X obj 229 111 route 0 1;
+#X msg 257 145 0;
+#X msg 219 146 1;
+#X obj 210 49 inlet;
+#X obj 217 198 outlet;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 1 1 2 0;
+#X connect 2 0 5 0;
+#X connect 3 0 5 0;
+#X connect 4 0 0 0;

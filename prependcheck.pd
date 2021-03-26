@@ -1,0 +1,10 @@
+#N canvas 2069 235 450 300 12;
+#X obj 145 63 inlet;
+#X obj 250 64 inlet;
+#X obj 154 131 list prepend;
+#X obj 188 197 print ppc;
+#X obj 275 165 list trim;
+#X connect 0 0 2 0;
+#X connect 1 0 2 1;
+#X connect 2 0 4 0;
+#X connect 4 0 3 0;
